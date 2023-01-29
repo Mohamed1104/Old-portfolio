@@ -1,0 +1,14 @@
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.apps > a > img{
+    height: 350px;
+    width: 400px;
+    border: 5px solid #2a9d8f;;
+    border-radius: 25% ;
+
+}

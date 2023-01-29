@@ -1,0 +1,36 @@
+.Home{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5%;
+
+}
+
+.bio > h1{
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h1 > span{
+    color:  #2a9d8f;
+}
+
+.pics{
+    display: flex;
+}
+
+.img > img{
+    height: 400px;
+    width: 400px;
+    border: 5px solid #2a9d8f;
+    border-radius: 35%;
+}
+
+.icon > img{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,36 @@
+.light-colour{
+   
+        background-color: #edf2f4;
+        color: black;
+        /* height: 500px; */
+
+}
+.light-colour > h1{
+        padding: auto;
+}
+.light-colour > p {
+        margin: 50px
+}
+#contact{
+        height: 400px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.dark-colour{
+   
+        background-color: #434C4A;
+        color: white;
+        /* height: 500px; */
+
+}
+.dark-colour > h1{
+        padding: auto;
+}
+.dark-colour > p {
+        margin: 50px
+}

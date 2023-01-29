@@ -1,0 +1,42 @@
+.light-colour{
+    background-color: #edf2f4;
+    color: black;
+    /* height: 800px; */
+}
+.dark-colour{
+    background-color: #434C4A;
+    color: white;
+    /* height: 800px; */
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #2a9d8f
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2a9d8f;
+    text-decoration: underline;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
