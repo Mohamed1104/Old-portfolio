@@ -20,6 +20,11 @@
     justify-content: space-around;
     align-items: center;    
 }
+.social-media{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;    
+    }
 
 .dark-colour{
    
