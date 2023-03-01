@@ -6,9 +6,9 @@ function Navbar({ text, toggle, classButton }) {
   return (
     <>
       <nav className="Navbar">
-        <div className="logo">
+        {/* <div className="logo">
           <span>MA</span>
-        </div>
+        </div> */}
         <div className="links">
           <ul className="nav-links">
             <li>

@@ -1,6 +1,6 @@
 .Navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding-top: 40px;
     padding-left: 10%;
@@ -137,3 +137,5 @@ a:hover{
     box-shadow: none;
     transform: translateY(0);
   }
+
+

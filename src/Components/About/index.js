@@ -33,7 +33,7 @@ function About({ background }) {
         </div>
         <div className="stack">
           <h2> Tech Stack:</h2>
-          <ul>
+          <ul className="tech-stack">
             <li>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
