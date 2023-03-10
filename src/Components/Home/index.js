@@ -12,30 +12,39 @@ function Home() {
         </div>
       </div>
       <div className="bio">
-        {/* <TypeIt> Hi 👋, </TypeIt>
-        <TypeIt>
-          {" "}
-          I am <span>Mohamed</span>{" "}
-        </TypeIt>
-        <TypeIt>
-          {" "}
-          <span>Abdi</span> and this
-        </TypeIt>
-        <TypeIt>is my portfolio... </TypeIt> */}
         <h1> Hi 👋,</h1>
         <h1>
-          I am <span>Mohamed</span>{" "}
+          I'm <span>Mohamed Abdi</span>{" "}
         </h1>
-        <h1>
-          <span>Abdi</span> and this
+        <h1>and this is my portfolio...</h1>
+        <h1 className="Type">
+          <TypeIt
+            options={{ loop: true }}
+            getBeforeInit={(instance) => {
+              instance
+                .type("Full Stack Developer")
+                .pause(750)
+                .delete(20)
+                .pause(500)
+                .type("Front End")
+                .pause(750)
+                .delete(20)
+                .pause(500)
+                .type("Back End")
+                .pause(750)
+                .delete(20)
+                .pause(500)
+                .type("Team Worker")
+                .pause(750)
+                .delete(20)
+                .pause(500)
+                .type("Creative");
+
+              // Remember to return it!
+              return instance;
+            }}
+          />
         </h1>
-        <h1> is my portfolio...</h1>
-      </div>
-      <div className="icon">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/2409/2409387.png"
-          alt=""
-        />
       </div>
     </div>
   );

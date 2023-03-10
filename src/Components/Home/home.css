@@ -6,6 +6,18 @@
 
 }
 
+.Type{
+    font-size: 60px;
+}
+.img {
+    flex: 2
+}
+.bio{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
 .bio > h1{
     color: white;
 }
@@ -24,6 +36,7 @@ h1 > span{
 }
 
 .img > img{
+
     height: 400px;
     width: 400px;
     border: 5px solid #2a9d8f;
